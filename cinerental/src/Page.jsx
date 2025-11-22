@@ -13,7 +13,7 @@ export default function Page() {
     <div className={`h-full w-full ${darkMode ? "dark" : ""}`}>
       <Header />
       <main>
-        <div className="container grid lg:grid-cols-[218px_1fr] gap-[3.5rem]">
+        <div className="dark:bg-gray-800 bg-white dark:text-white text-dark container mx-auto px-4 py-10 grid lg:grid-cols-[218px_1fr] gap-[3.5rem]">
           <Sidebar />
           <MovieList />
         </div>

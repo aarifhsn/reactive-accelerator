@@ -35,7 +35,7 @@ export default function Header() {
         {showCart && (
           <CartDetails movie={selectedMovie} onClose={handleHideCartDetails} />
         )}
-        <nav className="container flex items-center justify-between space-x-10 py-6">
+        <nav className="dark:bg-gray-800 bg-white dark:text-white text-dark container mx-auto flex items-center justify-between space-x-10 py-6">
           <a href="index.html">
             <img src={Logo} width="139" height="26" alt="logo" />
           </a>
